@@ -1,0 +1,186 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/gsap.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.11.1/ScrollTrigger.min.js"></script>
+    <title>Adam Gargulák</title>
+</head>
+<body>
+    <div id="header">
+        <nav>
+            <img src="logo2.png" class="logo">
+            <button class="burger-menu" aria-label="Toggle menu">
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+                <span class="burger-line"></span>
+            </button>
+            <ul>
+                <li><a href="#header">Home</a></li>
+                <li><a href="#about">About me</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <div class="container">
+
+
+        <div class="header-text">
+            <p>graphic <span>|</span> web developer <span>|</span> programmer</p>
+            <h1>Hello, my name is <span>Adam</span><br>and I'm a student of information technologies.</h1>
+        </div>
+
+        
+
+        </div>
+        </div>
+
+        
+
+<section id="about">
+
+    <div class="about-header">
+        <h2>About me</h2>
+    </div>
+        <div class="about-section">
+
+            <div class="about-image">
+                <img src="foto.ja.png" alt="Moje fotka">
+            </div>
+            <div class="about-text">
+                <p> My name is Adam and I am an amateur programmer, web developer and graphic designer. 
+                    I am passionate about creating modern and functional websites that not only
+                    look good, but also work great. In addition, I am a graphic designer,
+                     where I can use my creativity and attention to detail to the fullest.
+                </p>
+                    <p>In my spare time, I like to play sports, which helps me maintain a balance between work and personal life.
+                        Sport teaches me endurance and discipline, which is positively reflected in my approach to programming and design.
+                    </p>
+                        <p>I am open to new challenges and opportunities where I can develop my skills and bring value to my clients.
+                            If you are looking for someone to help you create a unique web presence or graphic design project, please feel free
+                             contact me!
+                        </p>
+
+
+
+            </div>
+        </div>
+    </section>
+
+    
+
+    <section id="skills">
+        <div class="skills-header">
+            <h2>Skills</h2>
+        </div>
+
+        <div class="box-container">
+
+            <div class="box">
+              <img src="html (2).png" alt="">
+              <p>HTML</p>
+            </div>
+            <div class="box">
+              <img src="css (2).png" alt="">
+              <p>CSS</p>
+            </div>
+            <div class="box">
+                <img src="java.script.png" alt="">
+                <p>Java Script</p>
+              </div>
+            
+          </div>
+
+          <div class="box-container">
+
+            <div class="box">
+              <img src="illustrator.png" alt="">
+              <p>Illustrator</p>
+            </div>
+            <div class="box">
+              <img src="photoshop.png" alt="">
+              <p>Photoshop</p>
+            </div>
+            <div class="box">
+                <img src="premiere.png" alt="">
+                <p>Premiere Pro</p>
+              </div>
+            
+          </div>
+        
+
+
+
+    </section >
+    
+        <section id="contact">
+            <div class="contact-header">
+                <h2>Contact</h2>
+            </div>
+
+            <div class="contact-container">
+                <div class="left">
+                    <h4>Open to work!</h4>
+                </div>
+                
+                <div class="right">
+                    <div class="contact-item">
+                        <img src="envelope-of-white-paper.png" alt="mail" width="65" height="45">
+                        <p>s2023GargulakAdam@skolabaltaci.cz</p>
+                    </div>
+                    
+                        <div class="contact-item">
+                            <img src="telephone.png" alt="mail" width="65" height="45">
+                            <p>+420 123 456 789</p>
+                        </div>
+
+                
+                            <div class="contact-item">
+                                <img src="github-sign.png" alt="mail" width="65" height="45">
+                                <p>a-gargulak</p>
+                            </div>
+                        
+                </div>
+
+            </div>
+
+        </section>
+    
+
+
+<footer>
+        <div class="footer-content">
+            <p>&copy; 2024 <span>Adam Gargulák</span>. Všechna práva vyhrazena.</p>
+        </div>
+    </footer>
+
+        <script>
+            const nav = document.querySelector('nav');
+        
+            window.addEventListener('scroll', () => {
+                if (window.scrollY > 50) { 
+                    nav.style.background = 'rgba(30, 30, 30, 0.95)'; 
+                } else {
+                    nav.style.background = 'transparent'; 
+                }
+            });
+            
+            const burgerMenu = document.querySelector('.burger-menu');
+    const navMenu = document.querySelector('nav ul');
+
+    burgerMenu.addEventListener('click', () => {
+        burgerMenu.classList.toggle('open');
+        navMenu.classList.toggle('open');
+    });
+
+
+
+            
+            
+        </script>
+
+</body>
+</html>
