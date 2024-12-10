@@ -371,7 +371,6 @@ footer {
     z-index: 1001;
 }
 
-/* Stylování burger ikonky */
 .burger-line {
     display: block;
     width: 30px;
@@ -382,9 +381,7 @@ footer {
 }
 
 
-/* Základní responzivní úpravy pro mobilní zařízení */
 @media screen and (max-width: 768px) {
-    /* Změna navigace pro mobilní zobrazení */
     nav {
         flex-direction: column;
         padding: 10px;
@@ -414,7 +411,6 @@ footer {
     }
         
 
-    /* Úprava textu v headeru */
     .header-text {
         font-size: 16px;
         margin-top: 30%;
@@ -424,7 +420,7 @@ footer {
         font-size: 28px;
     }
 
-    /* Úprava sekce About Me */
+    
     .about-section {
         flex-direction: column;
         padding: 20px;
